@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notice to enter product quantity"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+        <EditText
+            android:id="@+id/edtNumberBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

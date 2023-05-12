@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BookStore_app</string>
+    <string-array name="category">
+        <!--        Sách trinh thám-->
+        <item>Thriller</item>
+        <!--        khoa học viễn tưởng-->
+        <item>Science fiction</item>
+        <!--        // Tiểu thuyết-->
+        <item>Novel</item>
+        <!--        Truyện ngắn-->
+        <item>Short story</item>
+        <!--        Bách khoa toàn thư-->
+        <item>Encyclopedia</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="show_password">oke</string>
+    <string name="hide_password">oke\n</string>
+
+    <string name="channel_name">Channel 2</string>
+    <string name="channel_description">Description 2</string>
+</resources>
